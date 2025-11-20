@@ -1,0 +1,4 @@
+holidays==0.85
+pandas
+matplotlib
+numpy
