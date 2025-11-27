@@ -7,5 +7,6 @@ Wir wollen: Zwei Datensätze
 - einmal in binärer Matrix
 -> vergleichen, wie das Modell mit unterschiedlichen Datensätze arbeitet
 
+Offene Fragen:
 - Data Cleaning: Ok, wenn wir NaN mit "0" füllen?
 - was machen wir mit fehlender Temperatur?
