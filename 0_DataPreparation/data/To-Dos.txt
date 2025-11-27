@@ -1,0 +1,11 @@
+1. Data Preparation
+
+Ziel: Finales Datenset anfertigen
+
+Wir wollen: Zwei Datensätze
+- einmal categorical data in 0-7
+- einmal in binärer Matrix
+-> vergleichen, wie das Modell mit unterschiedlichen Datensätze arbeitet
+
+- Data Cleaning: Ok, wenn wir NaN mit "0" füllen?
+- was machen wir mit fehlender Temperatur?
