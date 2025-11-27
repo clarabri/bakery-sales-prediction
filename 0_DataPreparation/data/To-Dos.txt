@@ -10,3 +10,11 @@ Wir wollen: Zwei Datensätze
 Offene Fragen:
 - Data Cleaning: Ok, wenn wir NaN mit "0" füllen?
 - was machen wir mit fehlender Temperatur?
+
+
+1. Wettercode:
+- schauen wie häufig jeder Code vorkommt
+- alle fehlenden Daten und seltenen Codes in eine Restkategorie packen
+- dann: binär codieren
+
+2. Warengruppe + Wochentag + Monat + Bewoelkung + Feiertage in Matrix
