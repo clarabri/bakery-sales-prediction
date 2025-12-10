@@ -47,3 +47,29 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code
+.vscode/
+*.code-workspace
+
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+
