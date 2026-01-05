@@ -68,6 +68,8 @@ __pycache__/
 
 
 # Virtual Environment
+tf_env/
+.tf_env
 .venv/
 venv/
 env/
