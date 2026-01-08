@@ -2,7 +2,7 @@
 
 ## Repository Link
 
-https://github.com/your_username/your_project_name
+https://github.com/clarabri/machine_learning_submission
 
 ## Description
 
@@ -14,15 +14,17 @@ Regression
 
 ### Results Summary
 
--   **Best Model:** [Name of the best-performing model]
--   **Evaluation Metric:** MAPE
+-   **Best Model:** Neural Net (s. 3_Model/best_model_neural_net_mit_LAG.ipynb)
+-   **Evaluation Metric:** MAPE: 17.45%
 -   **Result by Category** (Identifier):
-    -   **Bread** (1): [XX]%
-    -   **Rolls** (2): [XX]%
-    -   **Croissant** (3): [XX]%
-    -   **Confectionery** (4): [XX]%
-    -   **Cake** (5): [XX]%
-    -   **Seasonal Bread** (6): [XX]%
+    -   **Bread** (1): 17.81%
+    -   **Rolls** (2): 10.22%
+    -   **Croissant** (3): 15.56%
+    -   **Confectionery** (4): 24.53%
+    -   **Cake** (5): 13.52%
+    -   **Seasonal Bread** (6): 53.08%
+
+    
 
 ## Documentation
 
@@ -30,7 +32,7 @@ Regression
 3.  [**Dataset Characteristics (Barcharts)**](1_DatasetCharacteristics/)
 4.  [**Baseline Model**](2_BaselineModel/)
 5.  [**Model Definition and Evaluation**](3_Model/)
-6.  [**Presentation**](4_Presentation/README.md)
+6.  [**Presentation**](4_Presentation/Project_Presemtation_Group11.pdf) (alternativ: 4_Presentation/slides-as-jpegs)
 
 ## Cover Image
 
