@@ -2,7 +2,7 @@
 
 ## Repository Link
 
-https://github.com/clarabri/machine_learning_submission
+https://github.com/clarabri/bakery-sales-prediction 
 
 ## Description
 
@@ -14,7 +14,7 @@ Regression
 
 ### Results Summary
 
--   **Best Model:** Neural Net (s. 3_Model/best_model_neural_net_mit_LAG.ipynb)
+-   **Best Model:** Neural Net (s. 3_Model/best_model_neural_net.ipynb)
 -   **Evaluation Metric:** MAPE: 17.45%
 -   **Result by Category** (Identifier):
     -   **Bread** (1): 17.81%
@@ -32,7 +32,7 @@ Regression
 3.  [**Dataset Characteristics (Barcharts)**](1_DatasetCharacteristics/)
 4.  [**Baseline Model**](2_BaselineModel/)
 5.  [**Model Definition and Evaluation**](3_Model/)
-6.  [**Presentation**](4_Presentation/Project_Presemtation_Group11.pdf) (alternativ: 4_Presentation/slides-as-jpegs)
+6.  [**Presentation**](4_Presentation/Files_Presentation.pdf) 
 
 ## Cover Image
 
