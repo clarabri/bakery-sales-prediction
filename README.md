@@ -15,7 +15,6 @@
 |---|---|
 Baseline (Linear Regression):   | 33.74%
 Neural Network:                 | 17.45%
-─────────────────────────────────────
 Improvement:                    | ~48%
 
 Best category: **Rolls (10.2%)** 
@@ -32,8 +31,6 @@ This project builds a forecasting model for **6 product categories** over a 5-ye
 
 ## Results by Category
 
-![Forecast Results](results_preview.png)
-
 | Product | MAPE | Notes |
 |---|---|---|
 | Rolls | 10.2% | Most predictable — stable demand pattern |
@@ -42,6 +39,8 @@ This project builds a forecasting model for **6 product categories** over a 5-ye
 | Bread | 17.8% | — |
 | Confectionery | 24.5% | High variance, promo effects |
 | Seasonal Bread | 53.1% | Limited training data for seasonal items |
+
+![Forecast Results](results_preview.png)
 
 ---
 
