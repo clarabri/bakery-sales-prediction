@@ -1,4 +1,4 @@
-# Bakery Sales Forecasting — Neural Network vs. Baseline
+# 🥐 Bakery Sales Forecasting — Neural Network vs. Baseline
 
 > Can machine learning predict daily bakery sales better than a simple trend line?  
 > Spoiler: Yes — by ~48% on average. Results vary by category.
@@ -13,9 +13,10 @@
 
 | Model | Avg. MAPE |
 |---|---|
-Baseline (Linear Regression):   | 33.74%
-Neural Network:                 | 17.45%
-Improvement:                    | ~48%
+| Baseline (Linear Regression) | 33.74% |
+| **Neural Network** | **17.45%** |
+| Improvement | ~48% |
+
 
 - Best category: **Rolls (10.2%)** 
 - Most challenging: **Seasonal Bread (53%)** due to sparse data.
