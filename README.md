@@ -11,7 +11,7 @@
 
 ## TL;DR
 
-| Model | Avg. MAPE |
+| Model | MAPE |
 |---|---|
 | Baseline (Linear Regression) | 33.74% |
 | **Neural Network** | **17.45%** |
