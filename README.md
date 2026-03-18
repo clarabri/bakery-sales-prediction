@@ -13,10 +13,10 @@
 
 | Model | Avg. MAPE |
 |---|---|
-Baseline (Linear Regression):   33.74%
-Neural Network:                 17.45%
+Baseline (Linear Regression):   | 33.74%
+Neural Network:                 | 17.45%
 ─────────────────────────────────────
-Verbesserung:                   ~48%
+Improvement:                    | ~48%
 
 Best category: **Rolls (10.2%)** 
 Most challenging: Seasonal Bread (53%) due to sparse data.
