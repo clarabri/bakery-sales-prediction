@@ -5,7 +5,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.12.1-blue)
 ![Keras](https://img.shields.io/badge/Keras-Neural%20Net-red)
-![MAPE](https://img.shields.io/badge/Best%20MAPE-17.45%25-green)
+![MAPE](https://img.shields.io/badge/Best%20MAPE-10.2%25-green)
 
 ---
 
