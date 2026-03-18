@@ -32,7 +32,7 @@ This project builds a forecasting model for **6 product categories** over a 5-ye
 
 ## Results by Category
 
-*(Chart hier einfügen — Screenshot aus deinem Notebook)*
+![Forecast Results](results_preview.png)
 
 | Product | MAPE | Notes |
 |---|---|---|
