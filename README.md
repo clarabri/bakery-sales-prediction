@@ -17,8 +17,8 @@ Baseline (Linear Regression):   | 33.74%
 Neural Network:                 | 17.45%
 Improvement:                    | ~48%
 
-Best category: **Rolls (10.2%)** 
-Most challenging: Seasonal Bread (53%) due to sparse data.
+- Best category: **Rolls (10.2%)** 
+- Most challenging: **Seasonal Bread (53%)** due to sparse data.
 
 ---
 
