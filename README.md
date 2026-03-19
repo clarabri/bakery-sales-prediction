@@ -64,7 +64,6 @@ to support inventory and staffing decisions.
 
 ## Tools Used
 
-| Category | Tools |
 |---|---|
 | Language | Python 3.12.1 |
 | Modeling | TensorFlow / Keras, statsmodels |
