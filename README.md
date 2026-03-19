@@ -3,11 +3,15 @@
 > Can machine learning predict daily bakery sales better than a simple trend line?  
 > Spoiler: Yes — by ~48% on average. Results vary by category.
 
-![Python](https://img.shields.io/badge/Python-3.12.1-blue)
-![Keras](https://img.shields.io/badge/Keras-Neural%20Net-red)
-![MAPE](https://img.shields.io/badge/Best%20MAPE-10.2%25-green)
+## Tools Used
 
-Libraries: `pandas` · `numpy` · `scikit-learn` · `TensorFlow/Keras` · `statsmodels` · `matplotlib`
+| Category | Tools |
+|---|---|
+| Language | Python 3.12.1 |
+| Modeling | TensorFlow / Keras, statsmodels |
+| Data | pandas, numpy |
+| Evaluation | scikit-learn |
+| Visualization | matplotlib |
 
 ---
 
