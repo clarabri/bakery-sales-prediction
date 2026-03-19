@@ -67,8 +67,8 @@ to support inventory and staffing decisions.
 | Category | Tools |
 |---|---|
 | Language | Python 3.12.1 |
-| Modeling | TensorFlow / Keras, statsmodels |
 | Data | pandas, numpy |
+| Modeling | TensorFlow / Keras, statsmodels |
 | Evaluation | scikit-learn |
 | Visualization | matplotlib |
 
