@@ -7,6 +7,7 @@
 ![Keras](https://img.shields.io/badge/Keras-Neural%20Net-red)
 ![MAPE](https://img.shields.io/badge/Best%20MAPE-10.2%25-green)
 
+**Libraries:** pandas · numpy · scikit-learn · TensorFlow/Keras · statsmodels · matplotlib
 ---
 
 ## TL;DR
