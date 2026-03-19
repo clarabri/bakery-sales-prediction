@@ -3,15 +3,17 @@
 > Can machine learning predict daily bakery sales better than a simple trend line?  
 > Spoiler: Yes — by ~48% on average. Results vary by category.
 
-## Tools Used
+![Python](https://img.shields.io/badge/Python-3.12.1-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow%2FKeras-orange)
+![MAPE](https://img.shields.io/badge/Best%20MAPE-17.45%25-green)
 
-| Category | Tools |
-|---|---|
-| Language | Python 3.12.1 |
-| Modeling | TensorFlow / Keras, statsmodels |
-| Data | pandas, numpy |
-| Evaluation | scikit-learn |
-| Visualization | matplotlib |
+---
+
+## Business Problem
+
+Bakeries face a daily trade-off: produce too much → waste, too little → lost revenue.
+This project forecasts daily sales across **6 product categories** over a 5-year horizon
+to support inventory and staffing decisions.
 
 ---
 
@@ -23,20 +25,14 @@
 | **Neural Network** | **17.45%** |
 | Improvement | ~48% |
 
-
-- Best category: **Rolls (10.2%)** 
+- Best category: **Rolls (10.2%)**
 - Most challenging: **Seasonal Bread (53%)** due to sparse data.
 
 ---
 
-## Business Problem
+## Results
 
-Bakeries face a daily trade-off: produce too much → waste, too little → lost revenue.  
-This project builds a forecasting model for **6 product categories** over a 5-year horizon to support inventory and staffing decisions.
-
----
-
-## Results by Category
+![Forecast Results](results_preview.png)
 
 | Product | MAPE | Notes |
 |---|---|---|
@@ -44,27 +40,37 @@ This project builds a forecasting model for **6 product categories** over a 5-ye
 | Cake | 13.5% | Strong weekend signal |
 | Croissant | 15.6% | — |
 | Bread | 17.8% | — |
-| Confectionery | 24.5% | High variance, promo effects |
-| Seasonal Bread | 53.1% | Limited training data for seasonal items |
-
-![Forecast Results](results_preview.png)
+| Confectionery | 24.5% | High variance |
+| Seasonal Bread | 53.1% | Limited training data |
 
 ---
 
 ## Methodology
 
-1. **EDA** — Identified weekly seasonality, holiday effects, and category-specific trends  
-2. **Baseline** — Linear Regression to establish benchmark  
-3. **Neural Network** — Keras Sequential model with BatchNormalization and Dropout, trained on validation window 
-4. **Evaluation** — MAPE per category on holdout period (Aug 2018 – Jul 2019)
+1. **EDA** — Weekly seasonality, holiday effects, category-specific trends
+2. **Baseline** — Linear Regression (MAPE: 33.74%)
+3. **Neural Network** — Keras Sequential with BatchNormalization & Dropout (MAPE: 17.45%)
+4. **Evaluation** — Holdout period Aug 2018 – Jul 2019
 
 ---
 
 ## Key Learnings
 
-- Weekly patterns dominate — day-of-week features were the strongest predictors  
-- Seasonal Bread underperforms due to infrequent, irregular production cycles  
-- A simple neural net outperforms linear regression without heavy feature engineering
+- Day-of-week features were the strongest predictors
+- Seasonal Bread underperforms due to irregular production cycles
+- Neural net outperforms linear regression without heavy feature engineering
+
+---
+
+## Tools Used
+
+| Category | Tools |
+|---|---|
+| Language | Python 3.12.1 |
+| Modeling | TensorFlow / Keras, statsmodels |
+| Data | pandas, numpy |
+| Evaluation | scikit-learn |
+| Visualization | matplotlib |
 
 ---
 
